@@ -19,17 +19,22 @@ body {
 	background: white;
 	line-height: 1.8;
 }
-h1 {
+h1 { /*title of all pages */
 	font: 1.6em Verdana, Geneva, sans-serif;
 	margin-bottom: .4em;
 	color: rgb(83, 104, 138);
 }
-h2 {
+h2 { /*specific page title */
 	font: 3.2em Georgia, "Times New Roman", Times, serif;
 	margin-bottom: .2em;
 }
-h3 {
+h3 { /*subheading within specific page */
 	font-size: 1.2em;
+}
+
+h4{ /* subheading related to the h3 subhead */
+    font-size:1em;
+    font-style:italic;
 }
 p {
 	margin-bottom: 1em;
@@ -39,6 +44,12 @@ a {
 }
 a:hover {
 	color: rgb(120, 97, 55);
+}
+
+em {
+    font-weight: 400;
+    letter-spacing:1px;
+    color: rgb(83, 104, 138);
 }
 pre {
 	font-size: 1.4em;
